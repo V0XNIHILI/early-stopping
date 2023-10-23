@@ -1,11 +1,11 @@
 [project]
-name = "early_stopping"
+name = "early-stopping"
 version = "0.0.1"
 authors = [
   { name = "Bjarte Mehus Sunde" },
   { name = "Douwe den Blanken" }
 ]
-description = "Utilities for Brevitas (PyTorch quantization package)"
+description = "Utility to perform early stopping during neural network training"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -13,9 +13,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-keywords = ["machine learning", "ml", "ai", "pytorch", "python", "quantization", "brevitas"]
+keywords = ["machine learning", "ml", "ai", "pytorch", "python", "tensorflow", "utilities"]
 dependencies = [
-  'torch',
   'numpy'
 ]
 
