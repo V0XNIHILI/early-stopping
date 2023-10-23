@@ -5,7 +5,6 @@ authors = [
   { name = "Bjarte Mehus Sunde" },
   { name = "Douwe den Blanken" }
 ]
-packages = ["early_stopping"]
 description = "Utility to perform early stopping during neural network training"
 readme = "README.md"
 requires-python = ">=3.8"
