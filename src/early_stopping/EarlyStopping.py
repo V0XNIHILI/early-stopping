@@ -22,12 +22,14 @@ class EarlyStopping:
 
         self.patience = patience
         self.verbose = verbose
+        self.delta = delta
+        self.new_best_callback = new_best_callback
+       
+        self.trace_func = trace_func
         self.counter = 0
         self.best_score = None
         self.early_stop = False
         self.val_loss_min = np.Inf
-        self.delta = delta
-        self.trace_func = trace_func
 
     def __call__(self, val_loss):
         score = -val_loss
