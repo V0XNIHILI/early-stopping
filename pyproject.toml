@@ -23,5 +23,5 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-"Homepage" = "https://github.com/V0XNIHILI/brevitas-utils"
-"Bug Tracker" = "https://github.com/V0XNIHILI/brevitas-utils/issues"
+"Homepage" = "https://github.com/V0XNIHILI/early-stopping"
+"Bug Tracker" = "https://github.com/V0XNIHILI/early-stopping/issues"
